@@ -10,7 +10,7 @@ const dbConnection = async () => {
         useCreateIndex: true,
       } */
     );
-    console.log("DB online");
+    console.log("DB Online");
   } catch (error) {
     console.log(error);
     throw new Error("Error a la hora de iniciar la BD ver logs");
