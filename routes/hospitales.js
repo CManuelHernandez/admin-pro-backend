@@ -38,6 +38,6 @@ router.put(
   actualizarHospitales
 );
 
-router.delete("/:id", borrarHospitales);
+router.delete("/:id", validarJWT, borrarHospitales);
 
 module.exports = router;
