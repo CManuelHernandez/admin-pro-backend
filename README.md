@@ -1,6 +1,6 @@
 # AdminPro - Backend
 
-Ejecutar
+Ejecutar tras clonar
 
 ```
 npm install
